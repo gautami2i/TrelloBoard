@@ -1,0 +1,30 @@
+.container {
+
+  .column {
+    height: 30rem;
+    width: 20rem;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #ebebf000;
+    overflow-y: auto ;
+
+    .title {
+      margin: auto;
+      margin: 0.5rem 0 0.5rem 0.4rem;
+    }
+  }
+
+  .movable-item {
+    border-radius: 4px;
+    background-color: #d8d5d5;
+    height: auto;
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  }
+}
